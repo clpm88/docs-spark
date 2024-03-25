@@ -28,7 +28,8 @@ See the AuraDB support article link:{url-aura-kbase-databricks}[Connecting to Au
 
 == Combining AuraDB and AuraDS
 
-AuraDB is the Neo4j Cloud solution for OLTP processes while AuraDS is designed for computing large-scale graph/ml algorithms in the cloud. With the Neo4j Spark connector you can easily:
-* export the data from AuraDB ingesting it in AuraDS
-* run GDS graph/ml algorithms over your data in AuraDS
-* write the result of the computation back to AuraDB in order to enrich your transactional data
+AuraDB is the Neo4j cloud solution for OLTP processes, and AuraDS is designed for computing large-scale graph/ML algorithms in the cloud. With the Neo4j Spark connector you can easily:
+
+* Export the data from AuraDB and ingest it in AuraDS
+* Run GDS graph/ML algorithms over your data in AuraDS
+* Write the results of computations back to AuraDB in order to enrich your transactional data
